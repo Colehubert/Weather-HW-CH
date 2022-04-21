@@ -1,0 +1,22 @@
+h1 {
+Background-color: blue;
+    color: white;
+    text-align:center;
+}
+button{
+    display: block;
+    padding: 5px;
+    margin-top:10px;
+    width: 177;
+    height: 21;
+    background-color:aqua;
+    color:white;
+    
+}
+
+hr{
+    width: 177;
+margin: 0;
+margin-top: 10px;
+
+}
