@@ -1,7 +1,15 @@
-h1 {
-Background-color: blue;
+html,body {
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2.title {
+background-color: blue;
     color: white;
     text-align:center;
+padding:15px;
 }
 button{
     display: block;
@@ -19,4 +27,66 @@ hr{
 margin: 0;
 margin-top: 10px;
 
+}
+
+.content-container{
+display:flex;
+height:100%;
+padding:15px;
+padding-right: 0;
+}
+.city-search-container{
+width:30%;
+height:100%;
+}
+
+.weather-container{
+    width:60%;
+    padding:0 30px;
+    margin-right: 15px;
+ position:absolute;
+ right:0;
+ border:1px solid black;
+}
+
+#search-history div{
+padding:15px;
+border:1px solid grey;
+width:100%;
+text-align: center;
+margin-bottom: 5px;
+cursor: pointer;
+}
+
+#search-history {
+    width: 100%;
+margin-top: 10px;
+}
+
+.input-container,.weather-container{
+display:flex;
+
+}
+
+
+#search-input{
+width:50%;
+display:block;
+padding:15px;
+}
+
+#search-button{
+width:50%;
+padding:15px;
+background-color: aqua;
+margin-right: -32px;
+margin-left: 15px;
+border:1px solid grey;
+text-align:center;
+cursor: pointer;
+}
+
+#current-title{
+    text-align: center;
+    width:100%;
 }
