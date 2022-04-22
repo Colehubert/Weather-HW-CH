@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,33 @@
     <link rel="stylesheet" href="./Assets/style.css">
 
 </head>
-<body>
-    <h1>Weather Dashboard</h1>
-    <div class = "row">
-        <h2>Search for a City:</h2>
-        <form ><input type = "text"> <button type = "submit">Search</button><hr> 
 
-        </form>
+<body>
+    <h2 class = "title">Weather Dashboard</h2>
+    <div class="content-container">
+        <div class="city-search-container">
+            <h2>Search for a City:</h2>
+            <div class = "input-container">
+            <input type="text"id="search-input"> <div type="submit" id = "search-button">Search</div>
+        </div>
+                
+
+            
+            <div id = "search-history">
+                <div>Seattle</div>
+                <div>Chicago</div>
+                <div>Denver</div>
+            </div>
+        </div>
+        <div class = "weather-container">
+            <div class = "current-weather">
+                <h1 id = "current-title"></h1>
+                <div id = "current-info"></div>
+            </div>
+            <div class = "forecast-weather"></div>
+        </div>
     </div>
     <script src="./Assets/script.js"></script>
 </body>
+
 </html>
